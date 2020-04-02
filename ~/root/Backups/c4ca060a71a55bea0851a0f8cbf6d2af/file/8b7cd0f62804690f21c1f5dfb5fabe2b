@@ -1,8 +1,0 @@
-file:///media/root/Study/Study/Django_Projects/new/rest_demo1/restapp/urls.py {"mtime":1585742080731,"ctime":0,"size":162,"etag":"34qq6g7kf57","orphaned":false}
-from django.urls import path
-from . import views
-
-urlpatterns = [
-    path('product/',views.product_list),
-    path('product/<int:pk>/',views.product_details),
-]
